@@ -11,7 +11,7 @@ def convert_to_fahrenheit(celsius):
 try:
     temperature = float(input("Enter the temperature to convert: "))
 except:
-    print("you should enter number on the place of temperature!!")
+    print("Invalid temperature. Please enter a numeric value.")
     exit()
 
 conversion = input("Is this temperature in Celsius or Fahrenheit? (C/F): ")
