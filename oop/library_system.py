@@ -18,9 +18,9 @@ class Library:
         self.books = []
     def add_book(self, book):
         if isinstance(book, Book):
-            self.lists.append(book)
+            self.books.append(book)
     def list_books(self):
-        for i in self.lists:
+        for i in self.books:
             if isinstance(i, EBook):
                 print(f"EBook: {i.title} by {i.author}, File Size: {i.file_size}KB")
             elif isinstance(i, PrintBook):
