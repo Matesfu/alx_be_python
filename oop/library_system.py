@@ -15,7 +15,7 @@ class PrintBook(Book):
 
 class Library:
     def __init__(self):
-        self.lists = []
+        self.books = []
     def add_book(self, book):
         if isinstance(book, Book):
             self.lists.append(book)
